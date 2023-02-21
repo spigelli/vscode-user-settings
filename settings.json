@@ -1,0 +1,322 @@
+{
+  "explorer.sortOrder": "filesFirst",
+  // Editor appearance settings.
+  "editor.renderWhitespace": "all",
+  "editor.cursorStyle": "block",
+
+  "editor.fontSize": 12,
+  "editor.fontFamily": "SFMono Nerd Font, Fira Code, Menlo for Powerline, Monaco, 'Courier New', monospace",
+  "editor.rulers": [80, 100],
+
+  // Editor behavior settings.
+  "explorer.confirmDragAndDrop": false,
+  "editor.stickyTabStops": true,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "always",
+  "editor.lineNumbers": "on",
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.quickSuggestionsDelay": 0,
+  "editor.inlineSuggest.enabled": true,
+
+  // Integrated terminal settings.
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.lineHeight": 1.0,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.titleMode": "sequence",
+  "terminal.external.osxExec": "iterm.app",
+  // "terminal.integrated.shell.osx": "/bin/zsh",
+  // "eslint.nodePath": "/Users/isaacspiegel/.nvm/versions/node/v16.14.0/bin/node",
+  "terminal.integrated.tabs.location": "left",
+
+  // Explorer settings.
+  "explorer.confirmDelete": false,
+  "workbench.list.automaticKeyboardNavigation": false,
+
+  // Search settings.
+  "search.collapseResults": "auto",
+  "search.maxResults": 1000,
+  "scm.alwaysShowActions": true,
+  "scm.autoReveal": false,
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "scm.diffDecorationsGutterWidth": 5,
+
+  // Extensions settings.
+  "extensions.ignoreRecommendations": true,
+
+  // Debugger settings.
+  "testing.autoRun.mode": "rerun",
+  "debug.console.closeOnEnd": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#010409",
+    "statusBar.noFolderBackground": "#010409",
+    "statusBar.debuggingBackground": "#010409"
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.editor.focusRecentEditorAfterClose": false,
+
+  // File watcher settings
+  // "files.watcherExclude": {
+  //   "**/.git/objects/**": true,
+  //   "**/.git/subtree-cache/**": true,
+  //   "**/.hg/store/**": true,
+  //   "**/node_modules/*/**": true
+  // },
+
+  // Vim mode settings.
+    // Appearance.
+      // Cursor
+      "vim.cursorStylePerMode.insert": "line-thin",
+      "vim.cursorStylePerMode.normal": "block",
+      "vim.cursorStylePerMode.replace": "line-thin",
+      "vim.cursorStylePerMode.visual": "block",
+      "vim.cursorStylePerMode.visualblock": "block-outline",
+      "vim.cursorStylePerMode.visualline": "block",
+      // Colors
+      "vim.statusBarColorControl": true,
+      "vim.statusBarColors.commandlineinprogress": "#30363D",
+      "vim.statusBarColors.easymotioninputmode": "#007acc",
+      "vim.statusBarColors.easymotionmode": "#007acc",
+      "vim.statusBarColors.insert": "#0E2717",
+      "vim.statusBarColors.normal": "#010409",
+      "vim.statusBarColors.replace": "#C6C540",
+      "vim.statusBarColors.searchinprogress": "#A074C4",
+      "vim.statusBarColors.surroundinputmode": "#DE7632",
+      "vim.statusBarColors.visual": "#72538E",
+      "vim.statusBarColors.visualblock": "#6E3D71",
+      "vim.statusBarColors.visualline": "#191526",
+    "vim.foldfix": true,
+    "vim.hlsearch": true,
+    "vim.visualstar": true,
+    "vim.leader": " ",
+    "vim.useSystemClipboard": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.gdefault": true,
+    "vim.showMarksInGutter": true,
+    "vim.smartRelativeLine": true,
+    "vim.vimrc.path": "$HOME/.vimrc",
+    "vim.normalModeKeyBindingsNonRecursive": [
+    ],
+
+  // Typescript settings.
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    //"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "typescript.format.semicolons": "insert",
+  "typescript.locale": "en",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+
+  // Edge dev tools extension
+  "vscode-edge-devtools.browserFlavor": "Default",
+  "vscode-edge-devtools.mirrorEdits": true,
+  "vscode-edge-devtools.defaultUrl": "localhost:3000/",
+  "vscode-edge-devtools.showWorkers": true,
+  "eslint.lintTask.enable": true,
+
+  // Prettier
+  "prettier.enableDebugLogs": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.useEditorConfig": false,
+  "prettier.jsxSingleQuote": true,
+
+  // Magit
+  "magit.forge-enabled": true,
+
+  // Github Copilot
+  "github.copilot.enable": {
+  
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "json": true,
+  },
+
+  // Git
+  "git.suggestSmartCommit": true,
+  "git.autoStash": true,
+  "git.countBadge": "off",
+
+    // GitGraph
+    "gitlens.views.repositories.showRemotes": false,
+    "git-graph.repository.commits.fetchAvatars": true,
+    "git-graph.repository.onlyFollowFirstParent": true,
+    "git-graph.dialog.merge.squashMessageFormat": "Git SQUASH_MSG",
+
+    // Github Notifications
+    "githubNotificationsBell.oauthToken": "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",
+  "statsBar.location": "Right",
+  "statsBar.modules": ["cpuLoad", "memoUsage", "uptime"],
+  /*
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#5f0000",
+    "statusBar.noFolderBackground": "#5f0000",
+    "statusBar.debuggingBackground": "#5f0000"
+  },
+  */
+  "git.autofetch": true,
+  // "editor.cursorSurroundingLines": 45,
+  "editor.mouseWheelZoom": true,
+  "workbench.editor.labelFormat": "short",
+  // "eslint.options": {
+  //   "overrideConfigFile": "/Users/isaacspiegel/Documents/electa/electa-api/.eslintrc.cjs"
+  //   // "overrideConfigFile": "/Users/isaacspiegel/Documents/ParticleSpace/connect/.eslintrc.js",
+  // },
+  "editor.codeActionsOnSave": {
+
+    // "source.fixAll": true,
+    // "source.fixAll.eslint": true,
+  },
+  "git.fetchOnPull": true,
+  "git-graph.dialog.createBranch.checkOut": true,
+  "git-graph.repository.commits.mute.commitsThatAreNotAncestorsOfHead": true,
+  "editor.accessibilitySupport": "off",
+  "[json]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "macros": {
+      "vimShiftA": [
+          "cursorLineEnd",
+          "extension.vim_insert",
+          "editor.action.inlineSuggest.trigger"
+      ],
+      "openLineBelow": [
+          "editor.action.insertLineAfter",
+          "extension.vim_insert",
+          "editor.action.inlineSuggest.trigger"
+      ],
+      "openLineAbove": [
+          "editor.action.insertLineBefore",
+          "extension.vim_insert",
+          "editor.action.inlineSuggest.trigger"
+      ],
+      "insert": [
+          "extension.vim_insert",
+          "editor.action.inlineSuggest.trigger"
+      ],
+  },
+  "emmet.showExpandedAbbreviation": "never",
+  "html.format.wrapAttributes": "force-aligned",
+  "codemetrics.nodeconfiguration.JsxElement": 0.35,
+  "codemetrics.nodeconfiguration.JsxSelfClosingElement": 0.1,
+  "warmUp.switchProgrammingLanguage": "javascript",
+  "warmUp.changeCount": "15",
+  "workbench.editor.highlightModifiedTabs": true,
+  "warmUp.changeTypingMode": "code snippets",
+  "autoHide.autoHidePanel": false,
+  "editor.minimap.enabled": false,
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
+  "workbench.preferredLightColorTheme": "GitHub Light",
+  "window.autoDetectColorScheme": true,
+  "vim.highlightedyank.enable": true,
+  "vim.ignorecase": false,
+  "vim.whichwrap": "b, B,s, w, W, e, E",
+  "vim.sneak": true,
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/opt/homebrew/bin/nvim",
+  "vscode-neovim.logLevel": "debug",
+  "vscode-neovim.mouseSelectionStartVisualMode": true,
+  "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+  "vscode-neovim.logOutputToConsole": true,
+  "vscode-neovim.revealCursorScrollLine": true,
+  "eslint.format.enable": true,
+  "workbench.editor.showIcons": false,
+  "search.mode": "reuseEditor",
+  "explorer.compactFolders": false,
+  "editor.formatOnType": true,
+  "workbench.fontAliasing": "auto",
+  "workbench.editorAssociations": {
+    "*.html": "default"
+  },
+  "files.autoSaveDelay": 100,
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "livePreview.portNumber": 5050,
+  "livePreview.serverKeepAliveAfterEmbeddedPreviewClose": 0.1,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "vim.vimrc.enable": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "debug.console.wordWrap": false,
+"window.newWindowDimensions": "maximized",
+"editor.tabSize": 2,
+"eslint.packageManager": "yarn",
+"eslint.migration.2_x": "off",
+"codemetrics.basics.CodeLensHiddenUnder": 0,
+"codemetrics.basics.ComplexityColorHigh": "#ff00e1",
+"redhat.telemetry.enabled": true,
+"git.confirmSync": false,
+"liveshare.diagnosticLogging": true,
+"liveshare.diagnosticLoggingLevel": "Info",
+"liveshare.launcherClient": "visualStudioCode",
+"liveshare.allowInvites": "all",
+"notebook.compactView": false,
+"files.exclude": {
+  "**/.DS_Store": false,
+  "**/.git": false,
+  "**/.hg": false,
+  "**/.svn": false,
+  "**/CVS": false,
+  "**/Thumbs.db": false,
+},
+"explorer.autoReveal": false,
+"html.format.preserveNewLines": false,
+"auto-arrage-tabs.time": 3,
+"workbench.editor.scrollToSwitchTabs": true,
+"yaml.schemas": {
+  "file:///Users/isaacspiegel/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+},
+"atlascode.jira.enabled": false,
+"terminal.integrated.env.osx": {
+  "FIG_NEW_SESSION": "1"
+},
+"editor.lineHeight": 1.5,
+"githubPullRequests.pushBranch": "always",
+"git-graph.commitDetailsView.location": "Docked to Bottom",
+"git-graph.date.type": "Commit Date",
+"git.enableSmartCommit": true,
+"githubPullRequests.defaultMergeMethod": "rebase",
+"githubIssues.issueBranchTitle": "${sanitizedIssueTitle}/issue${issueNumber}",
+"githubPullRequests.assignCreated": "${user}",
+"githubPullRequests.pullBranch": "never",
+"typescript.suggest.completeFunctionCalls": true,
+"typescript.enablePromptUseWorkspaceTsdk": true,
+"eslint.alwaysShowStatus": true,
+"codestream.serverUrl": "https://api.codestream.com",
+"codestream.email": "isaacspiegel@gmail.com",
+"storybook.nodePath": "/Users/isaacspiegel/.nvm/versions/node/v16.15.0/bin/node",
+"storybook.configDir": "packages/components/.storybook",
+"typescript.preferences.importModuleSpecifier": "relative",
+"typescript.preferences.includePackageJsonAutoImports": "on",
+"typescript.preferences.useAliasesForRenames": false,
+"typescript.tsserver.enableTracing": true,
+"typescript.tsserver.log": "off",
+"gitlens.mode.active": "zen",
+"go.inferGopath": true,
+"git.ignoreMissingGitWarning": true,
+"[python]": {
+},
+"files.enableTrash": false,
+}
